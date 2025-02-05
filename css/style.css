@@ -188,15 +188,18 @@ a:hover {
 .slider_section .detail_box h2 {
   margin-bottom: 0;
   font-family: "Averia Gruesa Libre", serif;
+  margin: 0 auto;
 }
 .slider_section .detail_box h1 {
   font-family: "Averia Gruesa Libre", serif;
   font-weight: 600;
   font-size: 5rem;
   margin-top: 30vh;
+  margin: 0 auto;
 }
 .slider_section .detail_box p {
   padding-top: 10px;
+  margin: 0 auto;
 }
 
 .about_section {

@@ -184,7 +184,7 @@ a:focus {
   font-weight: 600;
   color: #2561D9;
   font-size: 5rem;
-  margin-bottom: 30px;
+  margin-top: 30vh;
 }
 
 .about_section {
@@ -204,7 +204,7 @@ a:focus {
 .why_section {
   text-align: center;
   color: #ffffff;
-  background-image: url(../images/g-2.png);
+  background-image: url(../images/IMG_1319.jpg);
   background-size: cover;
   position: relative;
 }
@@ -411,7 +411,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #252525;
+  background-color: #D9753B;
   color: #ffffff;
 }
 .info_section h5 {

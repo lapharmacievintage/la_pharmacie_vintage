@@ -89,6 +89,11 @@ body {
   text-align: center;
 }
 
+.nav-item:hover {
+  text-decoration: line-through;
+  color: #2561D9;
+}
+
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   position: relative;
 }
@@ -175,6 +180,7 @@ a:hover {
   background-image: url(../images/miroir.png);
   background-position: right;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .slider_section .detail_box h2 {
   margin-bottom: 0;

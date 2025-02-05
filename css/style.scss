@@ -3,6 +3,7 @@ $white: #ffffff;
 $primary1: #18d3ff;
 $primary2: #0dc3ff;
 $black:#050505;
+$brick:#D9753B
 $colorPrimary:#2561D9;
 
 @mixin main-font {
@@ -151,6 +152,11 @@ body {
   text-align: center;
 }
 
+.nav-item:hover{
+  text-decoration:line-through;
+  color: $brick;
+}
+
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
   position: relative;
 
@@ -176,7 +182,7 @@ a:focus {
 
 a:hover{
   text-decoration:line-through;
-  color: #2561D9;
+  color: $brick;
 
 
 }
@@ -247,6 +253,7 @@ a:hover{
   background-image: url(../images/miroir.png);
   background-position: right;
   background-repeat: no-repeat;
+  background-size: contain;
 
   .detail_box {
     h2 {

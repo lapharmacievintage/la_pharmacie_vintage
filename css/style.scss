@@ -4,7 +4,7 @@ $primary1: #18d3ff;
 $primary2: #0dc3ff;
 $black:#050505;
 $brick:#D9753B;
-$colorPrimary:#2561D9;
+$blue:#2561D9;
 
 @mixin main-font {
   font-family: "Nunito Sans", serif;
@@ -256,7 +256,6 @@ a:hover{
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
-  background:opacity(0.5);
 
   .detail_box {
     
@@ -321,7 +320,7 @@ a:hover{
 .why_section {
   text-align: center;
   color: $white;
-  background-image: url(../images/IMG_1319.jpg);
+  background-color: $blue;
   background-size: cover;
   position: relative;
 
@@ -329,7 +328,7 @@ a:hover{
 
   h2 {
     font-family: "Averia Gruesa Libre", serif;
-    color:#2561D9;
+    color:$brick;
   }
 
   p {
@@ -337,7 +336,7 @@ a:hover{
   }
 
   a {
-    @include hero_btn($white, $colorPrimary, 10px, 55px, 30px)
+    @include hero_btn($white, $blue, 10px, 55px, 30px)
   }
 }
 
@@ -615,11 +614,11 @@ a:hover{
 
     .active {
       &::before {
-        background-color: $colorPrimary;
+        background-color: $blue;
       }
 
       a {
-        color: $colorPrimary;
+        color: $blue;
       }
     }
 
@@ -696,7 +695,7 @@ a:hover{
 /* footer section*/
 
 .footer_section {
-  background-color: #D9753B;
+  background-color: $blue;
   display: flex;
   justify-content: center;
   position: relative;

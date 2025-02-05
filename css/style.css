@@ -173,6 +173,8 @@ a:hover {
   position: relative;
   padding: 45px 0 75px 0;
   background-image: url(../images/miroir.png);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 .slider_section .detail_box h2 {
   margin-bottom: 0;

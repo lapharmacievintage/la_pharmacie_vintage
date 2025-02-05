@@ -175,7 +175,7 @@ a:hover {
 /* slider section */
 .slider_section {
   height: 100vh;
-  margin-right: 10%;
+  margin: 0 auto;
   background-image: url(../images/miroir.png);
   background-position: center;
   background-repeat: no-repeat;

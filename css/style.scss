@@ -245,34 +245,9 @@ a:focus {
 
 /* slider section */
 .slider_section {
-  flex: 1;
-  display: flex;
-  align-items: center;
+   align-items: center;
   position: relative;
   padding: 45px 0 75px 0;
-
-  .slider_number-container {
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-    left: 4%;
-  }
-
-  .slider_number-container .number-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #0b0a0b;
-  }
-
-  .slider_number-container .number-box hr {
-    border: none;
-    width: 2px;
-    height: 320px;
-    background-color: #bcbcc0;
-  }
-
 
   .detail_box {
     h2 {
@@ -280,16 +255,13 @@ a:focus {
     }
 
     h1 {
+      font-family: "Averia Gruesa Libre", serif;
       font-weight: 600;
       color: #2561D9;
       font-size: 5rem;
       margin-bottom: 30px;
     }
 
-    a {
-      @include hero_btn(#0d0806, $white, 8px, 85px, 25px);
-      margin: 35px 0;
-    }
   }
 
   

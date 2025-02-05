@@ -3,7 +3,7 @@ $white: #ffffff;
 $primary1: #18d3ff;
 $primary2: #0dc3ff;
 $black:#050505;
-$brick:#D9753B
+$brick:#D9753B;
 $colorPrimary:#2561D9;
 
 @mixin main-font {
@@ -247,6 +247,7 @@ a:hover{
 
 /* slider section */
 .slider_section {
+  height:100vh;
    align-items: center;
   position: relative;
   padding: 45px 0 75px 0;

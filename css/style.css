@@ -184,6 +184,8 @@ a:hover {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
+  margin-top: 20vw;
+  background-color: red;
 }
 .slider_section .detail_box h2 {
   margin-bottom: 0;

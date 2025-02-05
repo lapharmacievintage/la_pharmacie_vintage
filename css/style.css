@@ -51,15 +51,9 @@ body {
   display: flex;
 }
 .heading_container h2 {
+  font-family: "Averia Gruesa Libre", serif;
+  color: #2561D9;
   position: relative;
-  font-weight: bold;
-}
-.heading_container h2::before {
-  content: url(../images/icon-logo.png);
-  position: absolute;
-  top: 50%;
-  left: -35px;
-  transform: translateY(-50%);
 }
 
 /*header section*/
@@ -182,6 +176,8 @@ a:focus {
 }
 .slider_section .detail_box h2 {
   margin-bottom: 0;
+  font-family: "Averia Gruesa Libre", serif;
+  color: #2561D9;
 }
 .slider_section .detail_box h1 {
   font-family: "Averia Gruesa Libre", serif;
@@ -213,7 +209,8 @@ a:focus {
   position: relative;
 }
 .why_section h2 {
-  font-weight: bold;
+  font-family: "Averia Gruesa Libre", serif;
+  color: #2561D9;
 }
 .why_section p {
   margin: 60px 0;
@@ -340,6 +337,8 @@ a:focus {
 }
 .arrange_section .detail_box h2 {
   margin-bottom: 45px;
+  font-family: "Averia Gruesa Libre", serif;
+  color: #2561D9;
 }
 
 .contact_section {
@@ -347,6 +346,8 @@ a:focus {
 }
 .contact_section h2 {
   margin-bottom: 65px;
+  font-family: "Averia Gruesa Libre", serif;
+  color: #2561D9;
 }
 .contact_section form {
   padding-right: 35px;

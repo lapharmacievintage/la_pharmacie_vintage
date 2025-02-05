@@ -104,16 +104,10 @@ body {
   display: flex;
 
   h2 {
+    font-family: "Averia Gruesa Libre", serif;
+    color:#2561D9;
     position: relative;
-    font-weight: bold;
 
-    &::before {
-      content: url(../images/icon-logo.png);
-      position: absolute;
-      top: 50%;
-      left: -35px;
-      transform: translateY(-50%);
-    }
   }
 }
 
@@ -252,6 +246,8 @@ a:focus {
   .detail_box {
     h2 {
       margin-bottom: 0;
+      font-family: "Averia Gruesa Libre", serif;
+    color:#2561D9;
     }
 
     h1 {
@@ -314,7 +310,8 @@ a:focus {
  
 
   h2 {
-    font-weight: bold;
+    font-family: "Averia Gruesa Libre", serif;
+    color:#2561D9;
   }
 
   p {
@@ -477,6 +474,8 @@ a:focus {
 
     h2 {
       margin-bottom: 45px;
+      font-family: "Averia Gruesa Libre", serif;
+    color:#2561D9;
     }
   }
 }
@@ -492,6 +491,8 @@ a:focus {
 
   h2 {
     margin-bottom: 65px;
+    font-family: "Averia Gruesa Libre", serif;
+    color:#2561D9;
   }
 
   form {

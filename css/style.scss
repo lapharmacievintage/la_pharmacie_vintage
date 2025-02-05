@@ -171,12 +171,17 @@ body {
 a,
 a:hover,
 a:focus {
-  text-decoration:line-through;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
   color: #2561D9;
+}
+
+a:hover{
+  text-decoration:line-through;
+
 }
 
 .btn,

@@ -184,13 +184,11 @@ a:hover {
   background-repeat: no-repeat;
   background-size: auto;
 }
-.slider_section .detail_box {
-  color: #ffffff;
-  text-align: center;
-}
 .slider_section .detail_box h2 {
   margin-bottom: 0;
   font-family: "Averia Gruesa Libre", serif;
+  color: #ffffff;
+  text-align: center;
 }
 .slider_section .detail_box h1 {
   font-family: "Averia Gruesa Libre", serif;
@@ -198,9 +196,12 @@ a:hover {
   color: #ffffff;
   font-size: 5rem;
   margin-top: 30vh;
+  text-align: center;
 }
 .slider_section .detail_box p {
   padding-top: 10px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .about_section {

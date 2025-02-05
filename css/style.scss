@@ -259,12 +259,13 @@ a:hover{
 
   .detail_box {
 
-    color:$white;
-    text-align: center;
+    
 
     h2 {
       margin-bottom: 0;
       font-family: "Averia Gruesa Libre", serif;
+      color:$white;
+    text-align: center;
     }
 
     h1 {
@@ -273,10 +274,13 @@ a:hover{
       color: $white;
       font-size: 5rem;
       margin-top: 30vh;
+    text-align: center;
     }
 
     p{
       padding-top: 10px;
+      color:$white;
+    text-align: center;
 
     }
 

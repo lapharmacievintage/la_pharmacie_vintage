@@ -249,24 +249,22 @@ a:hover{
 .slider_section {
   height:100vh;
   background-image: url(../images/miroir.png);
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size:contain;
+  Margin-right:10vw;
 
   .detail_box {
 
-    color:$white;
-    text-align: center;
+    color:$blue;
+    text-align: left;
     margin: 0 auto;
     margin-top:20vw;
-    background-color:red;
 
 
     h2 {
       margin-bottom: 0;
       font-family: "Averia Gruesa Libre", serif;
-      margin: 0 auto;
-
     }
 
     h1 {
@@ -274,13 +272,10 @@ a:hover{
       font-weight: 600;
       font-size: 5rem;
       margin-top: 30vh;
-      margin: 0 auto;
-
     }
 
     p{
-      padding-top: 10px;
-      margin: 0 auto;
+      padding-top: 15px;
 
 
     }

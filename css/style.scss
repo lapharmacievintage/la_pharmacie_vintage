@@ -253,32 +253,34 @@ a:hover{
   padding: 45px 0 75px 0;
   margin-right:10%;
   background-image: url(../images/miroir.png);
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:auto;
 
   .detail_box {
-    
+
+    color:$white;
+    text-align: center;
 
     h2 {
       margin-bottom: 0;
       font-family: "Averia Gruesa Libre", serif;
-    color:$blue;
-   
     }
 
     h1 {
       font-family: "Averia Gruesa Libre", serif;
       font-weight: 600;
-      color: #2561D9;
+      color: $white;
       font-size: 5rem;
-      margin-top: 30vh
+      margin-top: 30vh;
+    }
+
+    p{
+      padding-top: 10px;
+
     }
 
   }
-
-  
-
 
 }
 

@@ -180,21 +180,27 @@ a:hover {
   padding: 45px 0 75px 0;
   margin-right: 10%;
   background-image: url(../images/miroir.png);
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
+}
+.slider_section .detail_box {
+  color: #ffffff;
+  text-align: center;
 }
 .slider_section .detail_box h2 {
   margin-bottom: 0;
   font-family: "Averia Gruesa Libre", serif;
-  color: #2561D9;
 }
 .slider_section .detail_box h1 {
   font-family: "Averia Gruesa Libre", serif;
   font-weight: 600;
-  color: #2561D9;
+  color: #ffffff;
   font-size: 5rem;
   margin-top: 30vh;
+}
+.slider_section .detail_box p {
+  padding-top: 10px;
 }
 
 .about_section {

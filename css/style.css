@@ -183,10 +183,7 @@ a:hover {
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
-}
-.slider_section .detail_box {
-  background-color: white;
-  padding: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Gradient with 50% opacity */
 }
 .slider_section .detail_box h2 {
   margin-bottom: 0;

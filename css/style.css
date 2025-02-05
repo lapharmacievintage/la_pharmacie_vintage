@@ -1,7 +1,15 @@
-.chelsea-market-regular {
-  font-family: "Chelsea Market", serif;
+.averia-gruesa-libre-regular {
+  font-family: "Averia Gruesa Libre", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.nunito-sans {
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
 html {
@@ -9,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "Baloo Chettan", cursive;
+  font-family: "Nunito Sans", serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -132,7 +140,7 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-family: "Chelsea Market", sans-serif;
+  font-family: "Averia Gruesa Libre", serif;
   font-size: 24px;
   font-weight: 700;
   color: #191919;
@@ -444,7 +452,7 @@ a:focus {
 }
 .info_section .info_logo h5 {
   font-size: 38px;
-  font-family: "Chelsea Market", sans-serif;
+  font-family: "Averia Gruesa Libre", serif;
 }
 
 .info_links ul {

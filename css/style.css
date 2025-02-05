@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Chelsea Market", sans-serif;
+  font-family: "Baloo Chettan", cursive;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -96,7 +96,7 @@ body {
   width: 75px;
   left: 50%;
   height: 2.5px;
-  background-color: #f98169;
+  background-color: #2561D9;
   bottom: 8px;
   margin: 0 auto;
   display: block;
@@ -132,7 +132,7 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-family: "Baloo Chettan", cursive;
+  font-family: "Chelsea Market", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #191919;
@@ -198,7 +198,7 @@ a:focus {
 }
 .slider_section .detail_box h1 {
   font-weight: 600;
-  color: #e1603a;
+  color: #2561D9;
   font-size: 5rem;
   margin-bottom: 30px;
 }
@@ -329,7 +329,7 @@ a:focus {
 }
 .client_section .detail_box:hover {
   color: #ffffff;
-  background-color: #dc373d;
+  background-color: #2561D9;
   border-color: transparent;
 }
 .client_section .detail_box .img_box {
@@ -402,14 +402,14 @@ a:focus {
   outline: none;
   border: none;
   border-radius: 30px;
-  border: 1px solid #dc373d;
+  border: 1px solid #2561D9;
   color: #fff;
   font-weight: bold;
   margin: 0 auto;
-  background-color: #dc373d;
+  background-color: #2561D9;
 }
 .contact_section button:hover {
-  color: #dc373d;
+  color: #2561D9;
   background-color: transparent;
 }
 
@@ -444,7 +444,7 @@ a:focus {
 }
 .info_section .info_logo h5 {
   font-size: 38px;
-  font-family: "Baloo Chettan", cursive;
+  font-family: "Chelsea Market", sans-serif;
 }
 
 .info_links ul {

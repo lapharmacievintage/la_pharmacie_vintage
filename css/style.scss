@@ -248,9 +248,6 @@ a:hover{
 /* slider section */
 .slider_section {
   height:100vh;
-   align-items: center;
-  position: relative;
-  padding: 45px 0 75px 0;
   margin-right:10%;
   background-image: url(../images/miroir.png);
   background-position: center;
@@ -259,28 +256,23 @@ a:hover{
 
   .detail_box {
 
-    
+    color:$white;
+    text-align: center;
 
     h2 {
       margin-bottom: 0;
       font-family: "Averia Gruesa Libre", serif;
-      color:$white;
-    text-align: center;
     }
 
     h1 {
       font-family: "Averia Gruesa Libre", serif;
       font-weight: 600;
-      color: $white;
       font-size: 5rem;
       margin-top: 30vh;
-    text-align: center;
     }
 
     p{
       padding-top: 10px;
-      color:$white;
-    text-align: center;
 
     }
 

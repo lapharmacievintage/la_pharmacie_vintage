@@ -1,9 +1,15 @@
+.chelsea-market-regular {
+  font-family: "Chelsea Market", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Chelsea Market", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -242,7 +248,7 @@ a:focus {
   padding: 10px 55px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
-  color: #e1603a;
+  color: #2561D9;
   border-radius: 30px;
 }
 .why_section a:hover {
@@ -448,10 +454,10 @@ a:focus {
   padding-left: 15px;
 }
 .info_links ul .active::before {
-  background-color: #e1603a;
+  background-color: #2561D9;
 }
 .info_links ul .active a {
-  color: #e1603a;
+  color: #2561D9;
 }
 .info_links ul li {
   list-style-type: none;

@@ -3,11 +3,18 @@ $white: #ffffff;
 $primary1: #18d3ff;
 $primary2: #0dc3ff;
 $black:#050505;
-$colorPrimary:#e1603a;
+$colorPrimary:#2561D9;
 
 @mixin main-font {
-  font-family: "Poppins", sans-serif;
+  font-family: "Chelsea Market", sans-serif;
 }
+
+.chelsea-market-regular {
+  font-family: "Chelsea Market", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 @mixin secondary-font {
   font-family: 'Baloo Chettan', cursive;

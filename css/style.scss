@@ -258,12 +258,14 @@ a:hover{
   background-size: contain;
 
   .detail_box {
+    background-color: white;
+    padding: 20px;
+
     h2 {
       margin-bottom: 0;
       font-family: "Averia Gruesa Libre", serif;
     color:#2561D9;
-    background-color: white;
-    padding: 20px;
+   
     }
 
     h1 {

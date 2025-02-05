@@ -184,12 +184,14 @@ a:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.slider_section .detail_box {
+  background-color: white;
+  padding: 20px;
+}
 .slider_section .detail_box h2 {
   margin-bottom: 0;
   font-family: "Averia Gruesa Libre", serif;
   color: #2561D9;
-  background-color: white;
-  padding: 20px;
 }
 .slider_section .detail_box h1 {
   font-family: "Averia Gruesa Libre", serif;

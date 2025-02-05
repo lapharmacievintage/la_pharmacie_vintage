@@ -248,7 +248,6 @@ a:hover{
 /* slider section */
 .slider_section {
   height:100vh;
-  margin: 0 auto;
   background-image: url(../images/miroir.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -258,6 +257,8 @@ a:hover{
 
     color:$white;
     text-align: center;
+    margin: 0 auto;
+
 
     h2 {
       margin-bottom: 0;
